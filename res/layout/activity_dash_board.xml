@@ -1,0 +1,103 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context=".DashBoard">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="PILIH PRESIDEN ANDA"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:textSize="20dp"/>
+
+        <!-- Baris Pertama -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageViewanis"
+                android:layout_width="0dp"
+                android:layout_height="300dp"
+                android:layout_weight="1"
+                android:src="@drawable/anis"/>
+
+            <ImageView
+                android:id="@+id/imageViewamin"
+                android:layout_width="0dp"
+                android:layout_height="300dp"
+                android:layout_weight="1.17"
+                android:src="@drawable/amin"/>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/buttonPresiden1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pilihan Presiden 1"/>
+
+        <!-- Baris Kedua -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageViewprabowo"
+                android:layout_width="0dp"
+                android:layout_height="300dp"
+                android:layout_weight="1"
+                android:src="@drawable/prabowo"/>
+
+            <ImageView
+                android:id="@+id/imageViewgibran"
+                android:layout_width="0dp"
+                android:layout_height="300dp"
+                android:layout_weight="1"
+                android:src="@drawable/gibr"/>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/buttonPresiden2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pilihan Presiden 2"/>
+
+        <!-- Baris Ketiga -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageViewganjar"
+                android:layout_width="0dp"
+                android:layout_height="300dp"
+                android:layout_weight="1"
+                android:src="@drawable/ganjar"/>
+
+            <ImageView
+                android:id="@+id/imageViewmd"
+                android:layout_width="0dp"
+                android:layout_height="300dp"
+                android:layout_weight="1"
+                android:src="@drawable/mf"/>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/buttonPresiden3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pilihan Presiden 3"/>
+
+    </LinearLayout>
+</ScrollView>
